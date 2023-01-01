@@ -6,7 +6,9 @@ function Navbar() {
 
     const [open, setOpen] = useState(false);
   return (
-    <nav class='bg-blue-50 fixed top-0 left-0 md:pb-6 md:pt-12 md:px-20 px-4 py-6 mb-20 w-full justify-between md:flex md:justify-between md:item-center  '>
+    <nav class='bg-[#f0f9ff] fixed top-0 left-0 md:pb-6 md:pt-12 
+      md:px-20 px-4 py-6 mb-20 w-full justify-between md:flex 
+      md:justify-between md:item-center shadow  '>
       
       
        <div className='flex justify-between item-center'>
