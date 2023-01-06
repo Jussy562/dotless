@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.carousel-container {
+  width: 100%;
+}
+
+.dotless-steps {
+  border-radius: 9% 91% 21% 79% / 65% 23% 77% 35%;
+  background: rgb(26,122,198);
+  background: linear-gradient(90deg, rgba(26,122,198,0.7567401960784313) 27%, rgba(9,208,241,1) 96%, rgba(0,212,255,1) 100%);
+  box-shadow:  5px 5px 10px #5a5a5a,
+             -5px -5px 10px #ffffff;
+}

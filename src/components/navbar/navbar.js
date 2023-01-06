@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav class='bg-[#f0f9ff] fixed top-0 left-0 md:pb-6 md:pt-12 
       md:px-20 px-4 py-6 mb-20 w-full justify-between md:flex 
-      md:justify-between md:item-center shadow  '>
+      md:justify-between md:item-center shadow z-20  '>
       
       
        <div className='flex justify-between item-center'>

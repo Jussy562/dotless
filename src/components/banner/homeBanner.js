@@ -20,7 +20,7 @@ function HomeBanner() {
         <div className='w-1/2'>
             <div>
                 <span>
-                    <img src='/asset/clean.png' alt='dotless banner'   />
+                    <img src='/asset/clean.png' alt='dotless banner' className='motion-safe:animate-bounce'   />
                 </span>
             </div>
         </div>

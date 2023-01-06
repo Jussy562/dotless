@@ -5,6 +5,8 @@ import Navbar from '../../navbar/navbar'
 import serviceFiles from '../../dotlessService/ServiceApi'
 import Footer from '../../footer/footer'
 import HowItWork from '../../howItWork/howItWork'
+// import Testimony from '../../customerTestimony/testimony'
+
 
 
 
@@ -56,6 +58,9 @@ function Home() {
 
           </div>
         </section>
+        {/* <section className='md:px-20 px-4 md:py-20 bg-white'>
+          <Testimony />
+        </section> */}
         <Footer />
     </>
   )

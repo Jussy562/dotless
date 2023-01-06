@@ -15,7 +15,7 @@ export const howItWorkFiles = [
 
     {
         id: "3",
-        name: "Select cleanning service",
+        name: "Select a service",
         desc: "Select a cleannig service and choose a package that suit your need.",
        
     },

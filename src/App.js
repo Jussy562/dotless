@@ -1,4 +1,5 @@
 import './App.css';
+import "react-multi-carousel/lib/styles.css";
 
 import Home from './components/pages/home/home';
 
