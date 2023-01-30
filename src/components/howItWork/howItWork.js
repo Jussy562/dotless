@@ -15,7 +15,7 @@ function HowItWork({item}) {
         </div>
         
         <div className='flex flex-row md:flex-row md:items-center'>
-            <div className='flex gap-8'>
+            <div className='flex flex-col md:flex-row gap-8'>
                 {
                     howItWorkFiles.map((item) => (
                     <HowItWorkList key={item.id} item={item} />

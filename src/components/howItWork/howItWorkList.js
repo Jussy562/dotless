@@ -2,9 +2,9 @@ import React from 'react'
 
 function HowItWorkList({item}) {
   return (
-    <div className='flex flex-row w-1/2'>
+    <div className='flex flex-row w-full md:w-1/2'>
         <ol>
-            <li className="flex flex-row mb-8">
+            <li className="flex flex-row ">
                 <div className='dotless-steps flex flex-col justify-center items-center  bg-blue-400 p-10 
                 rounded-full h-80'>
                   <div>

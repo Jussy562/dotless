@@ -9,13 +9,13 @@ export const howItWorkFiles = [
     {
         id: "2",
         name: "Login/SignUp",
-        desc: "Locate the login button from the top-right of the home page. click the button to login or create an account.",
+        desc: "Locate the login button from the top-right of the home page. click to login or create an account.",
         
     },
 
     {
         id: "3",
-        name: "Select a service",
+        name: "Select service",
         desc: "Select a cleannig service and choose a package that suit your need.",
        
     },
