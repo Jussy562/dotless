@@ -14,7 +14,7 @@ function HomeBanner() {
                     We offer flexible scheduling and customizable cleaning plans.
                     
                 </p>
-                <div className='w-full md:w-auto'>
+                <div className='w-full md:w-auto text-l md:text-xl'>
                     <Button title="Book Now"  />
                 </div>
                 
