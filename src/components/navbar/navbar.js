@@ -1,4 +1,8 @@
 import React, {useState} from 'react';
+import { CgMenuMotion } from 'react-icons/cg';
+
+import { RiCloseLine } from 'react-icons/ri';
+
 import Button from '../button/button';
 import menuItems from './navMenuFiles';
 
@@ -20,7 +24,12 @@ function Navbar() {
          
           <div onClick={() => setOpen(!open)} className=' md:hidden text-3xl cursor-pointer'>
             {/* <ion-icon name={open ? "close-outline" : "menu-outline"}></ion-icon> */}
-            X 
+            {
+              !open ? 
+              <CgMenuMotion /> 
+              : 
+              <RiCloseLine />
+            } 
             
           </div>
 
