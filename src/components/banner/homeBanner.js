@@ -3,7 +3,7 @@ import Button from '../button/button'
 
 function HomeBanner() {
   return (
-    <div className='flex flex-col-reverse md:flex-row  items-center mt-40 md:mt-60 md:px-20 px-4 pb-20 w-full '>
+    <div className='flex flex-col-reverse md:flex-row  items-center mt-24 md:mt-60 md:px-20 px-4 pb-20 w-full '>
         <div className='w-full md:w-1/2'>
             <div className= 'flex gap-4 flex-col items-start w-full'>
                 <h2 className='text-blue-400 text-3xl md:text-5xl'>
