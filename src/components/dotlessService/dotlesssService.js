@@ -6,8 +6,8 @@ function DotlesssService({item}) {
     <div className='flex flex-col-reverse md:flex-row justify-between  w-full gap-2 shadow px-4 py-8'>
         <div className='w-full md:w-1/2 flex flex-col  '>
             <div className='flex flex-col w-full '>
-                <h2 className='text-gray-900 text-2xl font-bold mb-4'>{item.name}</h2>
-                <p className='text-xl text-gray-900'>{item.desc}</p>
+                <h2 className='text-gray-900 text-xl md:text-2xl font-bold mb-4'>{item.name}</h2>
+                <p className='text-l md:text-xl text-gray-900'>{item.desc}</p>
             </div>
             <div className='w-auto mt-8'>
                 <Button title="Book Now"  />

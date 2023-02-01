@@ -17,7 +17,7 @@ function Footer() {
                     </span>
                 </div>
                 <div>
-                    <p className='text-xl text-gray-300'>
+                    <p className='text-l md:text-xl text-gray-300'>
                         Dotless is a professional and reliable 
                         cleaning service company that uses best 
                         products and techniques to ensure your 
@@ -30,7 +30,7 @@ function Footer() {
                 <div className='flex flex-col items-start '>
                     <div className='flex  mb-2 md:mb-8'>
                         <span>
-                            <h4 className='text-gray-300 font-bold text-xl'>Links</h4>
+                            <h4 className='text-gray-300 font-bold text-l md:text-xl'>Links</h4>
                         </span>
                     </div>
 
@@ -57,7 +57,7 @@ function Footer() {
                 <div className='flex flex-col md:items-start'>
                         <div className='flex  mb-2 md:mb-8'>
                             <span>
-                                <h3 className='text-xl text-gray-300 font-bold'>Contact Us</h3>
+                                <h3 className='text-l md:text-xl text-gray-300 font-bold'>Contact Us</h3>
                             </span>
                         </div>
                         <div className='flex flex-col justify-start md:justify-center'>
